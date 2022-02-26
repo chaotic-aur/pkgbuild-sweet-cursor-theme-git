@@ -18,7 +18,7 @@ pkgver() {
 }
 
 package_sweet-cursor-theme-git() {
-	provides=('sweet-cursor-theme')
+	provides=('sweet-cursor-theme' 'xcursor-sweet')
 	conflicts=('xcursor-sweet')
 	pkgdesc="Sweet cursor theme"
 	cd $_pkgname/kde
